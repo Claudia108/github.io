@@ -1,3 +1,54 @@
-#kitten {
-  height: 100px;
+body {
+  color: purple;
+  background-color: rgb(241, 244, 214);
+  /*font-size: 16px;*/
+  margin-left: 5%;
+  margin-right: 5%
+}
+h1, h2 {
+  font-family: fantasy;
+  font-size: 28px;
+  color: purple;
+}
+h3 {
+  font-family: fantasy;
+  color: purple;
+  font-size: 28px;
+  border-style: double;
+  border-width: 5px;
+  border-color: purple;
+  padding: 20px;
+}
+h4 {
+  font-family: serif;
+  font-size: 16px;
+  color: purple;
+}
+#date {
+  font-family: serif;
+  font-size: 20px;
+  color: purple;
+}
+.container {
+  font-family: serif;
+  font-size: 18px;
+  color: purple;
+}
+#home {
+  font-family: serif;
+  font-size: 20px;
+}
+
+#beast {
+  height: 500px;
+  border-style: ridge;
+  border-color: rgb(247, 229, 148);
+  border-width: thick;
+}
+#code-example {
+  border: dotted;
+  /*color: rgb(93, 68, 110);*/
+  background-color: rgb(247, 229, 148);
+  margin-right: 65%;
+  padding: 20px;
 }
