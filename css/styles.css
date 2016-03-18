@@ -1,19 +1,17 @@
 body {
   color: purple;
   background-color: rgb(241, 244, 214);
-  /*font-size: 16px;*/
   margin-left: 5%;
   margin-right: 5%
 }
 h1, h2 {
-  font-family: fantasy;
+  font-family: sans-serif;
   font-size: 28px;
-  color: purple;
 }
 h3 {
-  font-family: fantasy;
-  color: purple;
+  font-family: sans-serif;
   font-size: 28px;
+  text-align: right;
   border-style: double;
   border-width: 5px;
   border-color: purple;
@@ -22,20 +20,17 @@ h3 {
 h4 {
   font-family: serif;
   font-size: 16px;
-  color: purple;
 }
 #date {
   font-family: serif;
   font-size: 20px;
-  color: purple;
 }
 .container {
   font-family: serif;
   font-size: 18px;
-  color: purple;
 }
-#home {
-  font-family: serif;
+.nav-bar {
+  font-family: sans-serif;
   font-size: 20px;
 }
 
@@ -47,8 +42,18 @@ h4 {
 }
 #code-example {
   border: dotted;
-  /*color: rgb(93, 68, 110);*/
   background-color: rgb(247, 229, 148);
   margin-right: 65%;
   padding: 20px;
+}
+#austria {
+  border: double;
+  border-width: medium;
+  width: 50%;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#comment {
+  text-align: right;
 }
